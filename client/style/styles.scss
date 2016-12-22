@@ -1,0 +1,109 @@
+$xlarge: 3em;
+$large: 1.5em;
+$med: 1.25em;
+$small: 1em;
+$minWidth: 20em;
+
+body {
+	font-family: "Lato", sans-serif;
+	margin: 0;
+
+	a:hover {
+		color: #95BBAC;
+	}
+
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+	h1 {
+		font-size: $xlarge;
+	}
+	.intro-page {
+		height: 100vh;
+		min-height: 40em;
+		background-color: #FBFAFA;
+		.down-arrow{
+			position: relative;
+			margin: 0 auto;
+			margin-top: 4.5em;
+			width: 2em;
+			i {
+				font-size: $xlarge;
+			}
+		}
+		
+	}
+
+	.header {
+		background-color: white;
+		
+		.name{
+			position: relative;
+			width: 30em;
+			margin: 0 auto;
+			padding-top: 3em;
+
+			img {
+				width: 30em;
+			}
+		}
+
+		.nav {
+			position: relative;
+			margin: 0 auto;
+			margin-top: 2em;
+			width: 16.5em;
+			font-size: $med;
+			padding-bottom: 2.0em;
+			
+			div {
+				position: relative;
+				display: inline-block;
+				margin: 0 1em;
+			}
+		}
+	}
+
+	.about {
+		position: relative;
+		margin: 0 auto;
+		margin-top: 3.5em;
+		width: 60em;
+		
+		img {
+			width: 11em;
+		}
+		.display-pic{
+			height: 11em;
+			width: 11em;
+			border-radius: 11em;
+			overflow: hidden;
+			position: relative;
+			display: inline-block;
+			margin-right: 5em;
+		}
+		.description{
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			font-size: $large;
+			width: 70%;
+		}
+	}
+
+	.skills {
+		border: black solid 1px;
+		height: 100vh;
+		font-size: $med;
+	}
+
+	.projects {
+		height: 100vh;
+	}
+
+	.contact {
+		height: 100vh;
+	}
+}

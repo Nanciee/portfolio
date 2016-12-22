@@ -1,0 +1,72 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0; }
+  body a:hover {
+    color: #95BBAC; }
+  body a {
+    text-decoration: none;
+    color: black; }
+  body h1 {
+    font-size: 3em; }
+  body .intro-page {
+    height: 100vh;
+    min-height: 40em;
+    background-color: #FBFAFA; }
+    body .intro-page .down-arrow {
+      position: relative;
+      margin: 0 auto;
+      margin-top: 4.5em;
+      width: 2em; }
+      body .intro-page .down-arrow i {
+        font-size: 3em; }
+  body .header {
+    background-color: white; }
+    body .header .name {
+      position: relative;
+      width: 30em;
+      margin: 0 auto;
+      padding-top: 3em; }
+      body .header .name img {
+        width: 30em; }
+    body .header .nav {
+      position: relative;
+      margin: 0 auto;
+      margin-top: 2em;
+      width: 16.5em;
+      font-size: 1.25em;
+      padding-bottom: 2.0em; }
+      body .header .nav div {
+        position: relative;
+        display: inline-block;
+        margin: 0 1em; }
+  body .about {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 3.5em;
+    width: 60em; }
+    body .about img {
+      width: 11em; }
+    body .about .display-pic {
+      height: 11em;
+      width: 11em;
+      border-radius: 11em;
+      overflow: hidden;
+      position: relative;
+      display: inline-block;
+      margin-right: 5em; }
+    body .about .description {
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      font-size: 1.5em;
+      width: 70%; }
+  body .skills {
+    border: black solid 1px;
+    height: 100vh;
+    font-size: 1.25em; }
+  body .projects {
+    height: 100vh; }
+  body .contact {
+    height: 100vh; }
+
+/*# sourceMappingURL=styles.css.map */
