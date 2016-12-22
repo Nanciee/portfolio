@@ -39,5 +39,5 @@ angular.module('personal', [
   $stateProvider.state(projectsState);
   $stateProvider.state(contactState);
 
-  $urlRouterProvider.otherwise('/');
+  // $urlRouterProvider.otherwise('/');
 });
