@@ -141,4 +141,37 @@ body {
 	.contact {
 		height: 100vh;
 	}
+
+	.footer {
+		position: relative;
+		height: 6em;
+		width: 80vw;
+		margin: 0 auto;
+		.links {
+			position: absolute;
+			width: 7em;
+			div {
+				position: relative;
+				display: inline-block;
+				background-color: black;
+				border-radius: 2em;
+				width: 2em;
+				height: 2em;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 2em;
+				margin-right: 0.2em;
+				i {
+					color: white;
+				}
+			}
+		}
+		.copyright {
+			position: absolute;
+			vertical-align: middle;
+			line-height: 2em;
+			right: 0;
+			top: 0;
+		}
+	}
 }
