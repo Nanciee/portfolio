@@ -2,7 +2,12 @@
   height: 100vh;
   min-height: 25em;
   display: relative;
-  border: black solid 1px; }
+  border: white solid 1px; }
+
+.second-page {
+  border-top: black solid 1px;
+  height: 100vh;
+  font-size: 1.25em; }
 
 body {
   font-family: "Lato", sans-serif;
@@ -14,11 +19,13 @@ body {
     text-decoration: none;
     color: black; }
   body h1 {
-    font-size: 3em; }
+    font-size: 2em;
+    margin: 2em auto;
+    display: relative;
+    width: 4.7em; }
   body .header {
     background-color: white;
     height: 17em;
-    border: black 1px solid;
     position: fixed;
     width: 100%;
     z-index: 1000; }
@@ -61,17 +68,35 @@ body {
       vertical-align: top;
       font-size: 1.5em;
       width: 70%; }
-    body .about .down-arrow {
-      position: relative;
-      margin: 0 auto;
-      margin-top: 4.5em;
-      width: 2em; }
-      body .about .down-arrow i {
-        font-size: 3em; }
+  body .down-arrow {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15vh;
+    width: 2em; }
+    body .down-arrow i {
+      font-size: 2em; }
   body .skills {
-    border: black solid 1px;
-    height: 100vh;
-    font-size: 1.25em; }
+    position: relative;
+    width: 30em;
+    margin: 0 auto; }
+    body .skills .skill-name {
+      position: relative;
+      display: inline-block;
+      vertical-align: top; }
+    body .skills .skill-percentage {
+      position: relative;
+      display: inline-block;
+      margin-left: 6em;
+      margin-top: 0.4em; }
+      body .skills .skill-percentage .total-percentage {
+        border: black solid 1px;
+        height: 0.3em;
+        width: 17em;
+        margin-bottom: 0.8em; }
+        body .skills .skill-percentage .total-percentage div {
+          position: relative;
+          height: 0.3em;
+          background-color: grey; }
   body .projects {
     height: 100vh; }
   body .contact {

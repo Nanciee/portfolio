@@ -1,4 +1,4 @@
-$xlarge: 3em;
+$xlarge: 2em;
 $large: 1.5em;
 $med: 1.25em;
 $small: 1em;
@@ -8,7 +8,13 @@ $minWidth: 20em;
 	height: 100vh;
 	min-height: 25em;
 	display: relative;
-	border: black solid 1px;
+	border: white solid 1px;
+}
+
+.second-page {
+	border-top: black solid 1px;
+	height: 100vh;
+	font-size: $med;
 }
 
 body {
@@ -27,11 +33,14 @@ body {
 
 	h1 {
 		font-size: $xlarge;
+		margin: 2em auto;
+		display: relative;
+		width: 4.7em;
 	}
+
 	.header {
 		background-color: white;
 		height: 17em;
-		border: black 1px solid;
 		position: fixed;
 		width: 100%;
 		z-index: 1000;
@@ -86,21 +95,43 @@ body {
 			font-size: $large;
 			width: 70%;
 		}
-		.down-arrow{
-			position: relative;
-			margin: 0 auto;
-			margin-top: 4.5em;
-			width: 2em;
-			i {
-				font-size: $xlarge;
-			}	
-		}
+	}
+	.down-arrow{
+		position: relative;
+		margin: 0 auto;
+		margin-top: 15vh;
+		width: 2em;
+		i {
+			font-size: $xlarge;
+		}	
 	}
 
 	.skills {
-		border: black solid 1px;
-		height: 100vh;
-		font-size: $med;
+		position: relative;
+		width: 30em;
+		margin: 0 auto;
+		.skill-name {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.skill-percentage {
+			position: relative;
+			display: inline-block;
+			margin-left: 6em;
+			margin-top: 0.4em;
+			.total-percentage {
+				border: black solid 1px;
+				height: 0.3em;
+				width: 17em;
+				margin-bottom: 0.8em;
+				div {
+					position: relative;
+					height: 0.3em;
+					background-color: grey;
+				}
+			}
+		}
 	}
 
 	.projects {
