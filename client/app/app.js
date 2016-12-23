@@ -1,6 +1,5 @@
-var skills = ["JavaScript", "TypeScript", "HTML/CSS", "Sass/LESS", "jQeury", "Angular", "Angular 2", "React", "React Native", "Backbone", "Node/Express", "MongoDB", "MySQL", "Git", "Grunt/Gulp", "Mocha/Chai"]
-
 angular.module('personal', [
+  'personal.about',
   'ui.router'
 ])
 .controller('personalController', function() {
@@ -20,7 +19,9 @@ angular.module('personal', [
   var aboutState = {
     name: 'about',
     url: '/about',
-    templateUrl: 'app/about/about.html'
+    templateUrl: 'app/about/about.html',
+    controller: 'AboutController',
+    controllerAs: 'AboutVm',
   };
 
   var projectsState = {
@@ -39,5 +40,5 @@ angular.module('personal', [
   $stateProvider.state(projectsState);
   $stateProvider.state(contactState);
 
-  // $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/about');
 });

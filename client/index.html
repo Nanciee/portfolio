@@ -9,21 +9,19 @@
     <title>Nancy Du</title>
   </head>
   <body>
-    <div class="intro-page">
-      <div class="header">
-        <div class="name"><img src="./asset/signature.jpg" /></div>
-        <div class="nav">
-          <div><a ui-sref="about">About</a></div>
-          <div><a ui-sref="projects">Projects</a></div>
-          <div><a ui-sref="contact">Contact</a></div>
-        </div>
+    <div class="header">
+      <div class="name"><img src="./asset/signature.jpg" /></div>
+      <div class="nav">
+        <div><a ui-sref="about">About</a></div>
+        <div><a ui-sref="projects">Projects</a></div>
+        <div><a ui-sref="contact">Contact</a></div>
       </div>
-
-      <div ui-view></div>
     </div>
-    
+    <div ui-view></div>
+
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="app/app.js"></script>
+    <script src="app/about/about.js"></script>
   </body>
 </html>

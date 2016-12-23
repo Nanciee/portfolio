@@ -1,3 +1,9 @@
+.first-page {
+  height: 100vh;
+  min-height: 25em;
+  display: relative;
+  border: black solid 1px; }
+
 body {
   font-family: "Lato", sans-serif;
   margin: 0;
@@ -9,19 +15,13 @@ body {
     color: black; }
   body h1 {
     font-size: 3em; }
-  body .intro-page {
-    height: 100vh;
-    min-height: 40em;
-    background-color: #FBFAFA; }
-    body .intro-page .down-arrow {
-      position: relative;
-      margin: 0 auto;
-      margin-top: 4.5em;
-      width: 2em; }
-      body .intro-page .down-arrow i {
-        font-size: 3em; }
   body .header {
-    background-color: white; }
+    background-color: white;
+    height: 17em;
+    border: black 1px solid;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; }
     body .header .name {
       position: relative;
       width: 30em;
@@ -43,7 +43,7 @@ body {
   body .about {
     position: relative;
     margin: 0 auto;
-    margin-top: 3.5em;
+    margin-top: 20em;
     width: 60em; }
     body .about img {
       width: 11em; }
@@ -61,6 +61,13 @@ body {
       vertical-align: top;
       font-size: 1.5em;
       width: 70%; }
+    body .about .down-arrow {
+      position: relative;
+      margin: 0 auto;
+      margin-top: 4.5em;
+      width: 2em; }
+      body .about .down-arrow i {
+        font-size: 3em; }
   body .skills {
     border: black solid 1px;
     height: 100vh;
