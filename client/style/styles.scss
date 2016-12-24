@@ -172,8 +172,19 @@ body {
 				}
 			}
 		}
-		
+	}
 
+	.more-projects {
+		position: relative;
+		margin: 0 auto;
+		height: 3em;
+		width: 8em;
+		font-size: $med;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 3em;
+		border: black solid 0.1em;
+		margin-top: 3em;
 	}
 
 	.contact {
