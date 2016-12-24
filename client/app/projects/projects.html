@@ -51,3 +51,18 @@
 
 	<div class="more-projects"><a href="https://github.com/Nanciee">View Github</a></div>
 </div>
+<div class="project-detail">
+	<div ng-repeat="project in ProjectsVm.projects">
+		<div>
+			<img src="{{project.img}}"/>
+		</div>
+		<div >
+			<div>{{project.name}}</div>
+			<div>{{project.description}}</div>
+			<div>
+				<div ng-repeat="tech in project.tech">{{tech}}</div>
+			</div>
+			<div>Site</div><div>Github</div>
+		</div>
+	</div>
+</div>

@@ -39,9 +39,9 @@ body {
     body .header .nav {
       position: relative;
       margin: 0 auto;
-      margin-top: 2em;
+      margin-top: 1em;
       width: 16.5em;
-      font-size: 1.25em;
+      font-size: 1.05em;
       padding-bottom: 2.0em; }
       body .header .nav div {
         position: relative;
@@ -66,7 +66,7 @@ body {
       position: relative;
       display: inline-block;
       vertical-align: top;
-      font-size: 1.5em;
+      font-size: 1.25em;
       width: 70%; }
   body .down-arrow {
     position: relative;
@@ -115,7 +115,7 @@ body {
         display: block; }
       body .projects .project .project-preview {
         position: relative;
-        font-size: 1em;
+        font-size: 1.05em;
         margin-top: -1.3em;
         background: rgba(255, 255, 255, 0.85);
         height: 1.3em; }
@@ -139,6 +139,8 @@ body {
     line-height: 3em;
     border: black solid 0.1em;
     margin-top: 3em; }
+  body .project-detail img {
+    width: 30em; }
   body .contact {
     height: 100vh; }
   body .footer {

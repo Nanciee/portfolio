@@ -1,20 +1,12 @@
 angular.module('personal', [
   'personal.about',
+  'personal.projects',
   'ui.router'
 ])
 .controller('personalController', function() {
 })
 
 .config(function($stateProvider, $urlRouterProvider) {
-
-  // var accountState = {
-  //   name: 'account',
-  //   url: '/account',
-  //   templateUrl: 'app/account/account.html',
-  //   controller: 'AccountController',
-  //   controllerAs: 'AccountVm',
-  //   authenticate: true
-  // };
 
   var aboutState = {
     name: 'about',
@@ -27,7 +19,9 @@ angular.module('personal', [
   var projectsState = {
     name: 'projects',
     url: '/projects',
-    templateUrl: 'app/projects/projects.html'
+    templateUrl: 'app/projects/projects.html',
+    controller: 'ProjectsController',
+    controllerAs: 'ProjectsVm',
   };
 
   var contactState = {

@@ -1,7 +1,7 @@
 $xlarge: 2em;
 $large: 1.5em;
 $med: 1.25em;
-$small: 1em;
+$small: 1.05em;
 $minWidth: 20em;
 
 .first-page {
@@ -58,9 +58,9 @@ body {
 		.nav {
 			position: relative;
 			margin: 0 auto;
-			margin-top: 2em;
+			margin-top: 1em;
 			width: 16.5em;
-			font-size: $med;
+			font-size: $small;
 			padding-bottom: 2.0em;
 			
 			div {
@@ -91,7 +91,7 @@ body {
 			position: relative;
 			display: inline-block;
 			vertical-align: top;
-			font-size: $large;
+			font-size: $med;
 			width: 70%;
 		}
 	}
@@ -185,6 +185,12 @@ body {
 		line-height: 3em;
 		border: black solid 0.1em;
 		margin-top: 3em;
+	}
+
+	.project-detail {
+		img {
+			width: 30em;
+		}
 	}
 
 	.contact {
