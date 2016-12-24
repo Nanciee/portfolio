@@ -75,7 +75,6 @@ body {
 		margin: 0 auto;
 		margin-top: 20em;
 		width: 60em;
-		
 		img {
 			width: 11em;
 		}
@@ -135,7 +134,46 @@ body {
 	}
 
 	.projects {
-		height: 100vh;
+		position: relative;
+		width: 73.5em;
+		margin: 0 auto;
+		margin-top: 20em;
+		.project {
+			position: relative;
+			display: inline-block;
+			margin: 0 0.5em;
+			
+			img {
+				height: 11em;
+				border: #e2e2e2 solid 0.05em;
+				border-top-left-radius: 0.2em;
+				border-top-right-radius: 0.2em;
+				margin-bottom: -0.5em;
+				display: block;
+			}
+			.project-preview {
+				position: relative;
+				font-size: $small;
+				margin-top: -1.3em;
+				background: rgba(255,255,255,.85);
+				height: 1.3em;
+				// border: black solid 1px;
+				span {
+					position: absolute;
+					left: 1em;
+					top: 0;
+				}
+
+				div {
+					position: absolute;
+					display: inline-block;
+					right: 1em;
+					top: 0;
+				}
+			}
+		}
+		
+
 	}
 
 	.contact {

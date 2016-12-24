@@ -98,7 +98,36 @@ body {
           height: 0.3em;
           background-color: grey; }
   body .projects {
-    height: 100vh; }
+    position: relative;
+    width: 73.5em;
+    margin: 0 auto;
+    margin-top: 20em; }
+    body .projects .project {
+      position: relative;
+      display: inline-block;
+      margin: 0 0.5em; }
+      body .projects .project img {
+        height: 11em;
+        border: #e2e2e2 solid 0.05em;
+        border-top-left-radius: 0.2em;
+        border-top-right-radius: 0.2em;
+        margin-bottom: -0.5em;
+        display: block; }
+      body .projects .project .project-preview {
+        position: relative;
+        font-size: 1em;
+        margin-top: -1.3em;
+        background: rgba(255, 255, 255, 0.85);
+        height: 1.3em; }
+        body .projects .project .project-preview span {
+          position: absolute;
+          left: 1em;
+          top: 0; }
+        body .projects .project .project-preview div {
+          position: absolute;
+          display: inline-block;
+          right: 1em;
+          top: 0; }
   body .contact {
     height: 100vh; }
   body .footer {
