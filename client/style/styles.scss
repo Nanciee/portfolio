@@ -40,33 +40,33 @@ body {
 
 	.header {
 		background-color: white;
-		height: 17em;
 		position: fixed;
 		width: 100%;
 		z-index: 1000;
-		.name{
+		height: 5em;
+		.header-content {
 			position: relative;
-			width: 30em;
+			width: 85%;
+			min-width: 30em;
 			margin: 0 auto;
-			padding-top: 3em;
-
-			img {
-				width: 30em;
+			margin-top: 2em;
+			.name{
+				position: absolute;
+				top: 0;
+				left: 0;
 			}
-		}
 
-		.nav {
-			position: relative;
-			margin: 0 auto;
-			margin-top: 1em;
-			width: 16.5em;
-			font-size: $small;
-			padding-bottom: 2.0em;
-			
-			div {
-				position: relative;
-				display: inline-block;
-				margin: 0 1em;
+			.nav {
+				position: absolute;
+				top: 0;
+				right: 0;
+				font-size: $small;
+				
+				div {
+					position: relative;
+					display: inline-block;
+					margin: 0 1em;
+				}
 			}
 		}
 	}

@@ -25,28 +25,29 @@ body {
     width: 4.7em; }
   body .header {
     background-color: white;
-    height: 17em;
     position: fixed;
     width: 100%;
-    z-index: 1000; }
-    body .header .name {
+    z-index: 1000;
+    height: 5em; }
+    body .header .header-content {
       position: relative;
-      width: 30em;
+      width: 85%;
+      min-width: 30em;
       margin: 0 auto;
-      padding-top: 3em; }
-      body .header .name img {
-        width: 30em; }
-    body .header .nav {
-      position: relative;
-      margin: 0 auto;
-      margin-top: 1em;
-      width: 16.5em;
-      font-size: 1.05em;
-      padding-bottom: 2.0em; }
-      body .header .nav div {
-        position: relative;
-        display: inline-block;
-        margin: 0 1em; }
+      margin-top: 2em; }
+      body .header .header-content .name {
+        position: absolute;
+        top: 0;
+        left: 0; }
+      body .header .header-content .nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 1.05em; }
+        body .header .header-content .nav div {
+          position: relative;
+          display: inline-block;
+          margin: 0 1em; }
   body .about {
     position: relative;
     margin: 0 auto;
