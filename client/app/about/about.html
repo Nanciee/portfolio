@@ -1,26 +1,35 @@
 <div class="first-page">
+	<div class="title">
+		<h1>Nancy Du</h1>
+		<div>Full Stack Web Developer</div>
+		<img src="./asset/macbook.png"/>
+	</div>
+</div>
+
+<div class="second-page">
 <!-- about -->
 	<div class="about">
 	  <div class="display-pic"><img src="./asset/dp.jpg" /></div>
 	  <div class="description">
-	    Hi there!
-	    <br><br>
-	    My name is Nancy and I am a full stack software developer based in Toronto. I'm passionate about UI/UX because I believe that a great application starts with a beautiful and user-friendly interface. You will always find me tinkering with something new or contributing to open-source projects!
+	    <h2>Hello.</h2>
+	    <p>
+	    	My name is Nancy and I am a full stack software developer based in Toronto. I'm passionate about UI/UX because I believe that a great application starts with a beautiful and user-friendly interface. You will always find me tinkering with something new or contributing to open-source projects!
+	    <p>
 	  </div>
+	  <hr>
 	</div>
 <!-- about -->
 
-	<div class="down-arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
-</div>
-
 <!-- skills -->
-<div class="second-page">
-	<h1>Tech Stack</h1>
-	<div class="skills">
-		<div class="skill-name"><div ng-repeat="skill in AboutVm.skills">{{skill[0]}}</div></div>
-		<div class="skill-percentage">
-			<div ng-repeat="skill in AboutVm.skills" class="total-percentage">
-				<div ng-style="{'width': {{skill[1]}} + '%'}"></div>
+	<div class="toolbox">
+		<div class="toolbox-icon"><img src="./asset/toolbox.png" /></div>
+		<h1>Toolbox</h1>
+		<div class="skills">
+			<div class="skill-name"><div ng-repeat="skill in AboutVm.skills">{{skill[0]}}</div></div>
+			<div class="skill-percentage">
+				<div ng-repeat="skill in AboutVm.skills" class="total-percentage">
+					<div ng-style="{'width': {{skill[1]}} + '%'}"></div>
+				</div>
 			</div>
 		</div>
 	</div>

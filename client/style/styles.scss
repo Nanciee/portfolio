@@ -1,19 +1,20 @@
+$xxlarge: 3em;
 $xlarge: 2em;
 $large: 1.5em;
 $med: 1.25em;
 $small: 1.05em;
-$minWidth: 20em;
+$xsmall: 0.95em;
+$minWidth: 30em;
 
 .first-page {
 	height: 100vh;
 	min-height: 25em;
 	display: relative;
-	border: white solid 1px;
+	border: #96a6b3 solid 1px;
+	background-color: #96a6b3;
 }
 
 .second-page {
-	border-top: black solid 1px;
-	height: 100vh;
 	font-size: $med;
 }
 
@@ -23,7 +24,7 @@ body {
 	overflow-x: hidden;
 
 	a:hover {
-		color: #95BBAC;
+		color: #96a6b3;
 	}
 
 	a {
@@ -32,10 +33,16 @@ body {
 	}
 
 	h1 {
-		font-size: $xlarge;
-		margin: 2em auto;
+		font-size: $xxlarge;
 		display: relative;
-		width: 4.7em;
+		text-align: center;
+		margin: 0 0;
+	}
+
+	hr {
+		height: 0.05em;
+		background-color: #96a6b3;
+		width: 13em;
 	}
 
 	.header {
@@ -47,7 +54,7 @@ body {
 		.header-content {
 			position: relative;
 			width: 85%;
-			min-width: 30em;
+			min-width: $minWidth;
 			margin: 0 auto;
 			margin-top: 2em;
 			.name{
@@ -70,29 +77,47 @@ body {
 			}
 		}
 	}
+	.title {
+		position: relative;
+		color: white;
+		width: $minWidth;
+		margin: 0 auto;
+		margin-top: 10em;
+		div {
+			font-size: $xlarge;
+			text-align: center;
+		}
+		img {
+			margin-top: 2em;
+		}
+	}
+
 	.about {
 		position: relative;
 		margin: 0 auto;
-		margin-top: 20em;
-		width: 60em;
-		img {
-			width: 11em;
-		}
+		margin-top: 5em;
+		width: 30vw;
+		min-width: $minWidth;
 		.display-pic{
-			height: 11em;
-			width: 11em;
-			border-radius: 11em;
+			height: 8em;
+			width: 8em;
+			border-radius: 8em;
 			overflow: hidden;
 			position: relative;
-			display: inline-block;
-			margin-right: 5em;
+			margin: 0 auto;
+			img {
+				width: 8em;
+			}
 		}
 		.description{
 			position: relative;
 			display: inline-block;
 			vertical-align: top;
-			font-size: $med;
-			width: 70%;
+			font-size: $xsmall;
+			margin: 0 auto;
+			margin-top: 2em;
+			margin-bottom: 5em;
+			text-align: center;
 		}
 	}
 	.down-arrow{
@@ -105,29 +130,46 @@ body {
 		}	
 	}
 
-	.skills {
+	.toolbox {
 		position: relative;
-		width: 30em;
 		margin: 0 auto;
-		.skill-name {
+		margin-top: 5em;
+		width: 30vw;
+		min-width: $minWidth;
+		.toolbox-icon {
 			position: relative;
-			display: inline-block;
-			vertical-align: top;
+			margin: 0 auto;
+			width: 6em;
+			img {
+				width: 6em;
+			}
 		}
-		.skill-percentage {
+		
+		
+		.skills {
 			position: relative;
-			display: inline-block;
-			margin-left: 6em;
-			margin-top: 0.4em;
-			.total-percentage {
-				border: black solid 1px;
-				height: 0.3em;
-				width: 17em;
-				margin-bottom: 0.8em;
-				div {
-					position: relative;
+			width: 30em;
+			margin: 0 auto;
+			.skill-name {
+				position: relative;
+				display: inline-block;
+				vertical-align: top;
+			}
+			.skill-percentage {
+				position: relative;
+				display: inline-block;
+				margin-left: 6em;
+				margin-top: 0.4em;
+				.total-percentage {
+					border: black solid 1px;
 					height: 0.3em;
-					background-color: grey;
+					width: 17em;
+					margin-bottom: 0.8em;
+					div {
+						position: relative;
+						height: 0.3em;
+						background-color: grey;
+					}
 				}
 			}
 		}
@@ -157,7 +199,6 @@ body {
 				margin-top: -1.3em;
 				background: rgba(255,255,255,.85);
 				height: 1.3em;
-				// border: black solid 1px;
 				span {
 					position: absolute;
 					left: 1em;
