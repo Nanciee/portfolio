@@ -2,8 +2,9 @@
   height: 100vh;
   min-height: 25em;
   display: relative;
-  border: #96a6b3 solid 1px;
-  background-color: #96a6b3; }
+  border: white solid 1px;
+  background-color: #96a6b3;
+  color: white; }
 
 .second-page {
   font-size: 1.25em; }
@@ -13,10 +14,10 @@ body {
   margin: 0;
   overflow-x: hidden; }
   body a:hover {
-    color: #96a6b3; }
+    color: #E6E6E6; }
   body a {
     text-decoration: none;
-    color: black; }
+    color: white; }
   body h1 {
     font-size: 3em;
     display: relative;
@@ -25,9 +26,11 @@ body {
   body hr {
     height: 0.05em;
     background-color: #96a6b3;
-    width: 13em; }
+    width: 13em;
+    margin-top: 9em;
+    margin-bottom: 9em; }
   body .header {
-    background-color: white;
+    background-color: rgba(150, 166, 179, 0.95);
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -41,7 +44,8 @@ body {
       body .header .header-content .name {
         position: absolute;
         top: 0;
-        left: 0; }
+        left: 0;
+        color: white; }
       body .header .header-content .nav {
         position: absolute;
         top: 0;
@@ -53,7 +57,6 @@ body {
           margin: 0 1em; }
   body .title {
     position: relative;
-    color: white;
     width: 30em;
     margin: 0 auto;
     margin-top: 10em; }
@@ -84,19 +87,10 @@ body {
       font-size: 0.95em;
       margin: 0 auto;
       margin-top: 2em;
-      margin-bottom: 5em;
       text-align: center; }
-  body .down-arrow {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 15vh;
-    width: 2em; }
-    body .down-arrow i {
-      font-size: 2em; }
   body .toolbox {
     position: relative;
     margin: 0 auto;
-    margin-top: 5em;
     width: 30vw;
     min-width: 30em; }
     body .toolbox .toolbox-icon {
@@ -127,18 +121,27 @@ body {
             position: relative;
             height: 0.3em;
             background-color: grey; }
+  body .project-intro {
+    margin-top: 10em; }
+    body .project-intro p {
+      position: relative;
+      font-size: 1.25em;
+      width: 18em;
+      text-align: center;
+      margin: 1em auto; }
+  body .project-container .first-page {
+    background-color: white;
+    color: black; }
   body .projects {
     position: relative;
     width: 73.5em;
-    margin: 0 auto;
-    margin-top: 20em; }
+    margin: 4em auto; }
     body .projects .project {
       position: relative;
       display: inline-block;
       margin: 0 0.5em; }
       body .projects .project img {
         height: 11em;
-        border: #e2e2e2 solid 0.05em;
         border-top-left-radius: 0.2em;
         border-top-right-radius: 0.2em;
         margin-bottom: -0.5em;
@@ -158,19 +161,42 @@ body {
           display: inline-block;
           right: 1em;
           top: 0; }
-  body .more-projects {
-    position: relative;
+  body .project-detail {
+    width: 40em;
     margin: 0 auto;
-    height: 3em;
-    width: 8em;
-    font-size: 1.25em;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 3em;
-    border: black solid 0.1em;
-    margin-top: 3em; }
-  body .project-detail img {
-    width: 30em; }
+    margin-top: 9em; }
+    body .project-detail img {
+      width: 30em; }
+    body .project-detail div {
+      text-align: center; }
+    body .project-detail .project-content {
+      position: relative;
+      margin: 0 auto; }
+      body .project-detail .project-content .project-title {
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: 1em; }
+      body .project-detail .project-content .project-describe {
+        font-size: 1.05em; }
+      body .project-detail .project-content .project-tech {
+        margin-top: 1em; }
+        body .project-detail .project-content .project-tech div {
+          position: relative;
+          display: inline-block;
+          margin: 0 0.2em; }
+      body .project-detail .project-content .project-button {
+        margin-top: 4em; }
+        body .project-detail .project-content .project-button div {
+          position: relative;
+          display: inline-block;
+          background-color: #333333;
+          width: 8em;
+          height: 2em;
+          font-size: 1.25em;
+          color: white;
+          vertical-align: middle;
+          line-height: 2em;
+          margin: 0 0.5em; }
   body .contact {
     height: 100vh; }
   body .footer {

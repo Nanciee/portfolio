@@ -1,68 +1,74 @@
-<div class="first-page">
-	<div class="projects">
-		<div class="project">
-			<img src="/../../asset/sushiii-small.png"/>
-			<div class="project-preview">
-				<span>Sushiii</span>
-				<div>
-					<i class="devicon-angularjs-plain"></i>
-					<i class="devicon-nodejs-plain"></i>
-					<i class="devicon-mysql-plain"></i>
+<div class="project-container">	
+	<div class="first-page">
+		<div class="project-intro">
+			<h1>Projects</h1>
+			<p>Here is a selection of my proudest work. You can take a peek at all of my projects by visiting me on Github!</p>
+		</div>
+		<div class="projects">
+			<div class="project">
+				<img src="/../../asset/sushiii-small.png"/>
+				<div class="project-preview">
+					<span>Sushiii</span>
+					<div>
+						<i class="devicon-angularjs-plain"></i>
+						<i class="devicon-nodejs-plain"></i>
+						<i class="devicon-mysql-plain"></i>
+					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="project">
-			<img src="/../../asset/zeus-small.png"/>
-			<div class="project-preview">
-				<span>Zeus Reviews</span>
-				<div>
-					<i class="devicon-angularjs-plain"></i>
-					<i class="devicon-nodejs-plain"></i>
-					<i class="devicon-mongodb-plain"></i>
+			<div class="project">
+				<img src="/../../asset/zeus-small.png"/>
+				<div class="project-preview">
+					<span>Zeus Reviews</span>
+					<div>
+						<i class="devicon-angularjs-plain"></i>
+						<i class="devicon-nodejs-plain"></i>
+						<i class="devicon-mongodb-plain"></i>
+					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="project">
-			<img src="/../../asset/scripty-small.png"/>
-			<div class="project-preview">
-				<span>Scripty</span>
-				<div>
-					<i class="devicon-react-original"></i>
-					<i class="devicon-nodejs-plain"></i>
-					<i class="devicon-mongodb-plain"></i>
+			<div class="project">
+				<img src="/../../asset/scripty-small.png"/>
+				<div class="project-preview">
+					<span>Scripty</span>
+					<div>
+						<i class="devicon-react-original"></i>
+						<i class="devicon-nodejs-plain"></i>
+						<i class="devicon-mongodb-plain"></i>
+					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="project">
-			<img src="/../../asset/shelfie-small.png"/>
-			<div class="project-preview">
-				<span>Shelf.ie</span>
-				<div>
-					<i class="devicon-angularjs-plain"></i>
-					<i class="devicon-nodejs-plain"></i>
-					<i class="devicon-mongodb-plain"></i>
+			<div class="project">
+				<img src="/../../asset/shelfie-small.png"/>
+				<div class="project-preview">
+					<span>Shelf.ie</span>
+					<div>
+						<i class="devicon-angularjs-plain"></i>
+						<i class="devicon-nodejs-plain"></i>
+						<i class="devicon-mongodb-plain"></i>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="more-projects"><a href="https://github.com/Nanciee">View Github</a></div>
-</div>
-<div class="project-detail">
-	<div ng-repeat="project in ProjectsVm.projects">
-		<div>
-			<img src="{{project.img}}"/>
-		</div>
-		<div >
-			<div>{{project.name}}</div>
-			<div>{{project.description}}</div>
+	<div class="project-detail">
+		<div class="project-content" ng-repeat="project in ProjectsVm.projects">
 			<div>
-				<div ng-repeat="tech in project.tech">{{tech}}</div>
+				<img src="{{project.img}}"/>
 			</div>
-			<div>Site</div><div>Github</div>
+			<div>
+				<div class="project-title">{{project.name}}</div>
+				<div class="project-describe">{{project.description}}</div>
+				<div class="project-tech">
+					<div ng-repeat="tech in project.tech">{{tech}}</div>
+				</div>
+				<div class="project-button"><div>Site</div><div>Github</div></div>
+			</div>
+			<hr>
 		</div>
 	</div>
 </div>
