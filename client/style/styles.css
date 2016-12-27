@@ -2,8 +2,8 @@
   height: 100vh;
   min-height: 25em;
   display: relative;
-  border: white solid 1px;
-  background-color: #96a6b3;
+  border: #535a6c solid 1px;
+  background-color: #535a6c;
   color: white; }
 
 .second-page {
@@ -24,13 +24,12 @@ body {
     text-align: center;
     margin: 0 0; }
   body hr {
-    height: 0.05em;
-    background-color: #96a6b3;
-    width: 13em;
-    margin-top: 9em;
-    margin-bottom: 9em; }
+    background-color: #535a6c;
+    height: 0.1em;
+    margin-top: 7em;
+    margin-bottom: 7em; }
   body .header {
-    background-color: rgba(150, 166, 179, 0.95);
+    background-color: rgba(80, 90, 108, 0.95);
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -129,9 +128,6 @@ body {
       width: 18em;
       text-align: center;
       margin: 1em auto; }
-  body .project-container .first-page {
-    background-color: white;
-    color: black; }
   body .projects {
     position: relative;
     width: 73.5em;
@@ -146,21 +142,6 @@ body {
         border-top-right-radius: 0.2em;
         margin-bottom: -0.5em;
         display: block; }
-      body .projects .project .project-preview {
-        position: relative;
-        font-size: 1.05em;
-        margin-top: -1.3em;
-        background: rgba(255, 255, 255, 0.85);
-        height: 1.3em; }
-        body .projects .project .project-preview span {
-          position: absolute;
-          left: 1em;
-          top: 0; }
-        body .projects .project .project-preview div {
-          position: absolute;
-          display: inline-block;
-          right: 1em;
-          top: 0; }
   body .project-detail {
     width: 40em;
     margin: 0 auto;

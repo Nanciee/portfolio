@@ -5,13 +5,14 @@ $med: 1.25em;
 $small: 1.05em;
 $xsmall: 0.95em;
 $minWidth: 30em;
+$theme: #535a6c;
 
 .first-page {
 	height: 100vh;
 	min-height: 25em;
 	display: relative;
-	border: white solid 1px;
-	background-color: #96a6b3;
+	border: $theme solid 1px;
+	background-color: $theme;
 	color: white;
 }
 
@@ -41,15 +42,14 @@ body {
 	}
 
 	hr {
-		height: 0.05em;
-		background-color: #96a6b3;
-		width: 13em;
-		margin-top: 9em;
-		margin-bottom: 9em;
+		background-color: $theme;
+		height: 0.1em;
+		margin-top: 7em;
+		margin-bottom: 7em;
 	}
 
 	.header {
-		background-color: rgba(150,166,179, 0.95);
+		background-color: rgba(80,90,108, 0.95);
 		position: fixed;
 		width: 100%;
 		z-index: 1000;
@@ -178,10 +178,10 @@ body {
 	}
 
 	.project-container {
-		.first-page {
-			background-color: white;
-			color: black;
-		}
+		// .first-page {
+		// 	background-color: white;
+		// 	color: black;
+		// }
 	}
 
 	.projects {
@@ -199,25 +199,6 @@ body {
 				border-top-right-radius: 0.2em;
 				margin-bottom: -0.5em;
 				display: block;
-			}
-			.project-preview {
-				position: relative;
-				font-size: $small;
-				margin-top: -1.3em;
-				background: rgba(255,255,255,.85);
-				height: 1.3em;
-				span {
-					position: absolute;
-					left: 1em;
-					top: 0;
-				}
-
-				div {
-					position: absolute;
-					display: inline-block;
-					right: 1em;
-					top: 0;
-				}
 			}
 		}
 	}
