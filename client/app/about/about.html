@@ -25,10 +25,19 @@
 		<div class="toolbox-icon"><img src="./asset/toolbox.png" /></div>
 		<h1>Toolbox</h1>
 		<div class="skills">
-			<div class="skill-name"><div ng-repeat="skill in AboutVm.skills">{{skill[0]}}</div></div>
+			<div class="skill-name"><div ng-repeat="skill in AboutVm.skills_one">{{skill.name}}</div></div>
 			<div class="skill-percentage">
-				<div ng-repeat="skill in AboutVm.skills" class="total-percentage">
-					<div ng-style="{'width': {{skill[1]}} + '%'}"></div>
+				<div ng-repeat="skill in AboutVm.skills_one" class="total-percentage">
+					<div ng-style="{'width': {{skill.percentage}} + '%', 'background-color': '{{skill.color}}'}"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="skills">
+			<div class="skill-name"><div ng-repeat="skill in AboutVm.skills_two">{{skill.name}}</div></div>
+			<div class="skill-percentage">
+				<div ng-repeat="skill in AboutVm.skills_two" class="total-percentage">
+					<div ng-style="{'width': {{skill.percentage}} + '%', 'background-color': '{{skill.color}}'}"></div>
 				</div>
 			</div>
 		</div>

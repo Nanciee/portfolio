@@ -4,6 +4,7 @@ $large: 1.5em;
 $med: 1.25em;
 $small: 1.05em;
 $xsmall: 0.95em;
+$xxsmall: 0.85em;
 $minWidth: 30em;
 $theme: #535a6c;
 
@@ -125,7 +126,8 @@ body {
 	.toolbox {
 		position: relative;
 		margin: 0 auto;
-		width: 30vw;
+		margin-bottom: 3em;
+		width: 40em;
 		min-width: $minWidth;
 		.toolbox-icon {
 			position: relative;
@@ -139,27 +141,27 @@ body {
 		
 		.skills {
 			position: relative;
-			width: 30em;
-			margin: 0 auto;
+			width: 18em;
+			margin: 3em 0.9em;
+			display: inline-block;
 			.skill-name {
 				position: relative;
 				display: inline-block;
 				vertical-align: top;
+				font-size: $xxsmall;
 			}
 			.skill-percentage {
 				position: relative;
 				display: inline-block;
-				margin-left: 6em;
+				margin-left: 2em;
 				margin-top: 0.4em;
 				.total-percentage {
-					border: black solid 1px;
 					height: 0.3em;
-					width: 17em;
-					margin-bottom: 0.8em;
+					width: 10em;
+					margin-bottom: 0.75em;
 					div {
 						position: relative;
 						height: 0.3em;
-						background-color: grey;
 					}
 				}
 			}

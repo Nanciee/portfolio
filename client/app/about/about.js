@@ -1,5 +1,85 @@
 angular.module('personal.about', [])
 .controller('AboutController', function() {
 	var AboutVm = this;
-	AboutVm.skills = [["JavaScript", 95], ["TypeScript", 75], ["HTML/CSS", 95], ["Sass/LESS", 75], ["jQeury", 85], ["Angular", 90], ["Angular 2", 85], ["React", 75], ["React Native", 65], ["Backbone", 65], ["Node/Express", 95], ["MongoDB", 95], ["MySQL", 95], ["Git", 95], ["Grunt/Gulp", 65], ["Mocha/Chai", 65]]
+	AboutVm.skills_one = [{
+		name: "JavaScript", 
+		percentage: 95,
+		color: "#ffd248"
+	}, 
+	{
+		name: "TypeScript", 
+		percentage: 75,
+		color: "#f79622"
+	}, 
+	{
+		name: "HTML/CSS", 
+		percentage: 95,
+		color: "#00a950"
+	}, 
+	{
+		name: "Sass/LESS", 
+		percentage: 75,
+		color: "#aec5e6"
+	}, 
+	{
+		name: "jQeury", 
+		percentage: 85,
+		color: "#ffd248"
+	}, 
+	{
+		name: "Angular", 
+		percentage: 90,
+		color: "#f79622"
+	}, 
+	{
+		name: "Angular 2", 
+		percentage: 85,
+		color: "#00a950"
+	}, 
+	{
+		name: "React", 
+		percentage: 75,
+		color: "#aec5e6"
+	}] 
+	
+	AboutVm.skills_two = [{
+		name: "React Native", 
+		percentage: 65,
+		color: "#ffd248"
+	}, 
+	{
+		name: "Backbone", 
+		percentage: 65,
+		color: "#f79622"
+	}, 
+	{
+		name: "Node/Express", 
+		percentage: 95,
+		color: "#00a950"
+	}, 
+	{
+		name: "MongoDB", 
+		percentage: 95,
+		color: "#aec5e6"
+	}, 
+	{
+		name: "MySQL", 
+		percentage: 95,
+		color: "#ffd248"
+	}, 
+	{
+		name: "Git", 
+		percentage: 95,
+		color: "#f79622"
+	}, 
+	{
+		name: "Grunt/Gulp", 
+		percentage: 65,
+		color: "#00a950"
+	}, 
+	{
+		name: "Mocha/Chai", 
+		percentage: 65,
+		color: "#aec5e6"
+	}]
 });
