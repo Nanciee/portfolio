@@ -4,7 +4,8 @@
   display: relative;
   border: #535a6c solid 1px;
   background-color: #535a6c;
-  color: white; }
+  color: white;
+  overflow: hidden; }
 
 .second-page {
   font-size: 1.25em; }
@@ -30,7 +31,7 @@ body {
     margin-top: 7em;
     margin-bottom: 7em; }
   body .header {
-    background-color: rgba(80, 90, 108, 0.95);
+    background-color: rgba(83, 90, 108, 0.95);
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -212,31 +213,36 @@ body {
         color: #333333; }
   body .footer {
     position: relative;
+    background-color: rgba(83, 90, 108, 0.95);
     height: 2em;
-    width: 80vw;
-    margin: 2em auto; }
-    body .footer .links {
-      position: absolute;
-      width: 7em; }
-      body .footer .links div {
-        position: relative;
-        display: inline-block;
-        background-color: #535a6c;
-        border-radius: 2em;
-        width: 2em;
-        height: 2em;
-        text-align: center;
+    padding: 1em 0;
+    margin-top: -4em; }
+    body .footer .footer-container {
+      position: relative;
+      width: 80vw;
+      margin: 0 auto; }
+      body .footer .footer-container .links {
+        position: absolute;
+        width: 7em; }
+        body .footer .footer-container .links div {
+          position: relative;
+          display: inline-block;
+          background-color: white;
+          border-radius: 2em;
+          width: 2em;
+          height: 2em;
+          text-align: center;
+          vertical-align: middle;
+          line-height: 2em;
+          margin-right: 0.2em; }
+          body .footer .footer-container .links div i {
+            color: #535a6c; }
+      body .footer .footer-container .copyright {
+        position: absolute;
         vertical-align: middle;
         line-height: 2em;
-        margin-right: 0.2em; }
-        body .footer .links div i {
-          color: white; }
-    body .footer .copyright {
-      position: absolute;
-      vertical-align: middle;
-      line-height: 2em;
-      right: 0;
-      top: 0;
-      color: #535a6c; }
+        right: 0;
+        top: 0;
+        color: white; }
 
 /*# sourceMappingURL=styles.css.map */
