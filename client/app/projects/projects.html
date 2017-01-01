@@ -30,10 +30,10 @@
 			</div>
 			<div>
 				<div class="project-title">{{project.name}}</div>
-				<div class="project-describe">{{project.description}}</div>
 				<div class="project-tech">
-					<div ng-repeat="tech in project.tech">{{tech}}</div>
+					<div ng-repeat="tech in project.tech"><i class="{{tech}}"></i></div>
 				</div>
+				<div class="project-describe">{{project.description}}</div>
 				<div class="project-button"><div>Site</div><div>Github</div></div>
 			</div>
 			<hr>

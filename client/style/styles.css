@@ -158,13 +158,18 @@ body {
         margin-top: 1em;
         margin-bottom: 1em; }
       body .project-detail .project-content .project-describe {
-        font-size: 1.05em; }
+        font-size: 1.05em;
+        margin-top: 1em; }
       body .project-detail .project-content .project-tech {
         margin-top: 1em; }
         body .project-detail .project-content .project-tech div {
           position: relative;
           display: inline-block;
           margin: 0 0.2em; }
+          body .project-detail .project-content .project-tech div i {
+            font-size: 3em;
+            margin-left: 0.25em;
+            margin-right: 0.25em; }
       body .project-detail .project-content .project-button {
         margin-top: 4em; }
         body .project-detail .project-content .project-button div {

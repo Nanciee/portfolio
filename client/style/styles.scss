@@ -177,13 +177,6 @@ body {
 		}
 	}
 
-	.project-container {
-		// .first-page {
-		// 	background-color: white;
-		// 	color: black;
-		// }
-	}
-
 	.projects {
 		position: relative;
 		width: 73.5em;
@@ -223,6 +216,7 @@ body {
 			}
 			.project-describe {
 				font-size: $small;
+				margin-top: 1em;
 			}
 			.project-tech {
 				margin-top: 1em;
@@ -230,6 +224,11 @@ body {
 					position: relative;
 					display: inline-block;
 					margin: 0 0.2em;
+					i {
+						font-size: $xxlarge;
+						margin-left: 0.25em;
+						margin-right: 0.25em;
+					}
 				}
 			}
 			.project-button {
@@ -246,7 +245,6 @@ body {
 					line-height: 2em;
 					margin: 0 0.5em;
 				}
-				
 			}
 		}
 	}
