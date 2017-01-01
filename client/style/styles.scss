@@ -25,6 +25,7 @@ body {
 	font-family: "Lato", sans-serif;
 	margin: 0;
 	overflow-x: hidden;
+	color: #333333;
 
 	a:hover {
 		color: #E6E6E6;
@@ -259,6 +260,7 @@ body {
 				padding-left: 3.25em;
 				width: 14em;
 				background-color: transparent;
+				color: #333333;
 			}
 			textarea {
 				position: absolute;
@@ -272,6 +274,7 @@ body {
 				resize: none;
 				border: none;
 				outline: none;
+				color: #333333;
 			}
 		}
 	}
@@ -287,7 +290,7 @@ body {
 			div {
 				position: relative;
 				display: inline-block;
-				background-color: black;
+				background-color: $theme;
 				border-radius: 2em;
 				width: 2em;
 				height: 2em;
@@ -306,6 +309,7 @@ body {
 			line-height: 2em;
 			right: 0;
 			top: 0;
+			color: $theme;
 		}
 	}
 }

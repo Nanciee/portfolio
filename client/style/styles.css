@@ -12,7 +12,8 @@
 body {
   font-family: "Lato", sans-serif;
   margin: 0;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  color: #333333; }
   body a:hover {
     color: #E6E6E6; }
   body a {
@@ -194,7 +195,8 @@ body {
         outline: none;
         padding-left: 3.25em;
         width: 14em;
-        background-color: transparent; }
+        background-color: transparent;
+        color: #333333; }
       body .contact form textarea {
         position: absolute;
         left: 0;
@@ -206,7 +208,8 @@ body {
         background-color: transparent;
         resize: none;
         border: none;
-        outline: none; }
+        outline: none;
+        color: #333333; }
   body .footer {
     position: relative;
     height: 2em;
@@ -218,7 +221,7 @@ body {
       body .footer .links div {
         position: relative;
         display: inline-block;
-        background-color: black;
+        background-color: #535a6c;
         border-radius: 2em;
         width: 2em;
         height: 2em;
@@ -233,6 +236,7 @@ body {
       vertical-align: middle;
       line-height: 2em;
       right: 0;
-      top: 0; }
+      top: 0;
+      color: #535a6c; }
 
 /*# sourceMappingURL=styles.css.map */
