@@ -131,18 +131,8 @@ body {
       margin: 1em auto; }
   body .projects {
     position: relative;
-    width: 73.5em;
-    margin: 4em auto; }
-    body .projects .project {
-      position: relative;
-      display: inline-block;
-      margin: 0 0.5em; }
-      body .projects .project img {
-        height: 11em;
-        border-top-left-radius: 0.2em;
-        border-top-right-radius: 0.2em;
-        margin-bottom: -0.5em;
-        display: block; }
+    width: 49em;
+    margin: 3em auto; }
   body .project-detail {
     width: 40em;
     margin: 0 auto;

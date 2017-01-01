@@ -181,21 +181,8 @@ body {
 
 	.projects {
 		position: relative;
-		width: 73.5em;
-		margin: 4em auto;
-		.project {
-			position: relative;
-			display: inline-block;
-			margin: 0 0.5em;
-			
-			img {
-				height: 11em;
-				border-top-left-radius: 0.2em;
-				border-top-right-radius: 0.2em;
-				margin-bottom: -0.5em;
-				display: block;
-			}
-		}
+		width: 49em;
+		margin: 3em auto;
 	}
 
 	.project-detail {
