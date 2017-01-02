@@ -88,27 +88,27 @@ body {
     width: 60em;
     margin: 0 auto;
     margin-top: 6.5em; }
-    body .title div {
+    body .title .intro {
       position: absolute;
       font-size: 1.5em;
       top: 4.35em;
       left: 9em;
       width: 25em; }
-      body .title div span {
+      body .title .intro span {
         line-height: 1.46em; }
-      body .title div .inner-function {
+      body .title .intro .inner-function {
         position: relative;
         max-width: 60%;
         margin-left: 2em; }
-      body .title div .pink {
+      body .title .intro .pink {
         color: #aa3f69; }
-      body .title div .yellow {
+      body .title .intro .yellow {
         color: #e6d77a; }
-      body .title div .orange {
+      body .title .intro .orange {
         color: #e2813b; }
-      body .title div .blue {
+      body .title .intro .blue {
         color: #81d7ec; }
-      body .title div .green {
+      body .title .intro .green {
         color: #b6d533; }
     body .title img {
       width: 60em; }
@@ -135,6 +135,13 @@ body {
       margin: 0 auto;
       margin-top: 2em;
       text-align: center; }
+    body .about .dot-divider {
+      position: relative;
+      margin: 6em auto;
+      color: rgba(83, 90, 108, 0.15);
+      width: 5.4em;
+      letter-spacing: 0.2em;
+      font-size: 0.85em; }
   body .toolbox {
     position: relative;
     margin: 0 auto;
@@ -174,7 +181,7 @@ body {
     body .project-intro p {
       position: relative;
       font-size: 1.25em;
-      width: 18em;
+      width: 20em;
       text-align: center;
       margin: 1em auto; }
   body .projects {
