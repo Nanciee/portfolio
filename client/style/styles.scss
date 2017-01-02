@@ -23,25 +23,25 @@ $theme: #535a6c;
 }
 
 .typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
 }
 @keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
 @-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
 @-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
 
 body {
@@ -230,20 +230,20 @@ body {
 	}
 
 	.project-intro {
-		margin-top: 8em;
+		margin-top: 7em;
 		p {
 			position: relative;
-			font-size: $med;
-			width: 20em;
+			font-size: $large;
+			width: 30em;
 			text-align: center;
-			margin: 1em auto;
+			margin: 0.5em auto;
 		}
 	}
 
 	.projects {
 		position: relative;
-		width: 49em;
-		margin: 3em auto;
+		width: 71em;
+		margin: 2em auto;
 	}
 
 	.project-detail {

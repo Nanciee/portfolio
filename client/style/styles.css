@@ -177,17 +177,17 @@ body {
             position: relative;
             height: 0.3em; }
   body .project-intro {
-    margin-top: 8em; }
+    margin-top: 7em; }
     body .project-intro p {
       position: relative;
-      font-size: 1.25em;
-      width: 20em;
+      font-size: 1.5em;
+      width: 30em;
       text-align: center;
-      margin: 1em auto; }
+      margin: 0.5em auto; }
   body .projects {
     position: relative;
-    width: 49em;
-    margin: 3em auto; }
+    width: 71em;
+    margin: 2em auto; }
   body .project-detail {
     width: 40em;
     margin: 9em auto; }
