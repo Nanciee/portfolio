@@ -58,14 +58,15 @@ body {
           margin: 0 1em; }
   body .title {
     position: relative;
-    width: 30em;
+    width: 60em;
     margin: 0 auto;
-    margin-top: 10em; }
+    margin-top: 5em; }
     body .title div {
       font-size: 2em;
       text-align: center; }
     body .title img {
-      margin-top: 2em; }
+      margin-top: 2em;
+      width: 60em; }
   body .about {
     position: relative;
     margin: 0 auto;
@@ -124,7 +125,7 @@ body {
             position: relative;
             height: 0.3em; }
   body .project-intro {
-    margin-top: 10em; }
+    margin-top: 8em; }
     body .project-intro p {
       position: relative;
       font-size: 1.25em;
@@ -137,8 +138,7 @@ body {
     margin: 3em auto; }
   body .project-detail {
     width: 40em;
-    margin: 0 auto;
-    margin-top: 9em; }
+    margin: 9em auto; }
     body .project-detail img {
       width: 30em; }
     body .project-detail div {

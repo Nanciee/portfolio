@@ -85,15 +85,16 @@ body {
 	}
 	.title {
 		position: relative;
-		width: $minWidth;
+		width: 60em;
 		margin: 0 auto;
-		margin-top: 10em;
+		margin-top: 5em;
 		div {
 			font-size: $xlarge;
 			text-align: center;
 		}
 		img {
 			margin-top: 2em;
+			width: 60em;
 		}
 	}
 
@@ -171,7 +172,7 @@ body {
 	}
 
 	.project-intro {
-		margin-top: 10em;
+		margin-top: 8em;
 		p {
 			position: relative;
 			font-size: $med;
@@ -189,8 +190,7 @@ body {
 
 	.project-detail {
 		width: 40em;
-		margin: 0 auto;
-		margin-top: 9em;
+		margin: 9em auto;
 		img {
 			width: 30em;
 		}
