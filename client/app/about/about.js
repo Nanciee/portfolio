@@ -82,4 +82,11 @@ angular.module('personal.about', [])
 		percentage: 65,
 		color: "#aec5e6"
 	}]
+
+	$(function(){
+      $(".typed").typed({
+          strings: ["^1500<br>^100<br>^100<span class='blue'>const</span> myName <span class='pink'>=</span><span class='yellow'> 'Nancy Du'</span>;^500<br>^200<span class='blue'>const</span> myTitle <span class='pink'>=</span><span class='yellow'> 'Full Stack Web Developer'</span>;^500<br>^200<br>^400<span class='blue'>greet</span>(myName, myTitle);"],
+          typeSpeed: 20
+      });
+  });
 });
