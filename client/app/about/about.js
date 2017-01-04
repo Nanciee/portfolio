@@ -142,8 +142,8 @@ angular.module('personal.about', [])
 
 	$document.on('scroll', function() {
     if($window.scrollY/$document.height() > 0.45 && !AboutVm.loaded) {
-    	AboutVm.percentage();
     	AboutVm.loaded = true;
+    	AboutVm.percentage();
     }
 	});
 });
