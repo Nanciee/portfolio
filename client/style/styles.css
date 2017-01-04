@@ -317,6 +317,8 @@ body {
           margin-right: 0.2em; }
           body .footer .footer-container .links div i {
             color: #535a6c; }
+        body .footer .footer-container .links div:hover {
+          background-color: #E6E6E6; }
       body .footer .footer-container .copyright {
         position: absolute;
         vertical-align: middle;
