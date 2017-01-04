@@ -2,7 +2,7 @@
 	<div class="first-page">
 		<div class="project-intro">
 			<h1>Projects</h1>
-			<p>Here is a selection of my proudest work.<br>You can take a peek at all of my projects by visiting me on Github!</p>
+			<p>Here is a selection of my proudest work.<br>You can take a peek at all of my projects by visiting me on <a href="https://github.com/Nanciee" target="_blank"><u>Github</u></a>!</p>
 		</div>
 		<div class="projects">
 			<img src="/../../asset/projects.png"/>
@@ -20,7 +20,7 @@
 					<div ng-repeat="tech in project.tech"><i class="{{tech}}"></i></div>
 				</div>
 				<div class="project-describe">{{project.description}}</div>
-				<div class="project-button"><div>Site</div><div>Github</div></div>
+				<div class="project-button"><a href="{{project.site}}" target="_blank"><div ng-if="project.site !== undefined">Site</div></a><a href="{{project.github}}" target="_blank"><div>Github</div></a></div>
 			</div>
 			<hr ng-if="project.name !== 'Shelf.ie'">
 		</div>
