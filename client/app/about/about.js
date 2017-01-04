@@ -141,7 +141,6 @@ angular.module('personal.about', [])
 	}
 
 	$document.on('scroll', function() {
-    console.log($window.scrollY);
     if($window.scrollY/$document.height() > 0.45 && !AboutVm.loaded) {
     	AboutVm.percentage();
     	AboutVm.loaded = true;
