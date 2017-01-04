@@ -113,19 +113,16 @@ body {
 		.intro {
 			position: absolute;
 			font-size: $large;
-			// border: 1px black solid;
 			top: 4.35em;
 			left: 9em;
 			width: 25em;
 			span {
 				line-height: 1.46em;
-				// border: 1px black solid;
 			}
 			.inner-function {
 				position: relative;
 				max-width: 60%;
 				margin-left: 2em;
-				// border: 1px black solid;
 			}
 			.pink {
 				color: #aa3f69;
@@ -187,9 +184,12 @@ body {
 	.toolbox {
 		position: relative;
 		margin: 0 auto;
-		margin-bottom: 3em;
-		width: 40em;
+		margin-bottom: 10em;
+		width: 42em;
 		min-width: $minWidth;
+		h1 {
+			font-size: $xlarge;
+		}
 		.toolbox-icon {
 			position: relative;
 			margin: 0 auto;
@@ -199,30 +199,31 @@ body {
 			}
 		}
 		
-		
 		.skills {
 			position: relative;
 			width: 18em;
-			margin: 3em 0.9em;
+			margin-left: 2em;
+			margin-top: 5em;
 			display: inline-block;
 			.skill-name {
 				position: relative;
 				display: inline-block;
 				vertical-align: top;
-				font-size: $xxsmall;
+				font-size: $small;
+				line-height: 1.8em;
+				margin-top: -0.40em;
 			}
 			.skill-percentage {
 				position: relative;
 				display: inline-block;
-				margin-left: 2em;
-				margin-top: 0.4em;
+				margin-left: 1em;
 				.total-percentage {
 					height: 0.3em;
 					width: 10em;
-					margin-bottom: 0.75em;
+					margin-bottom: 1.55em;
 					div {
 						position: relative;
-						height: 0.3em;
+						height: 0.8em;
 					}
 				}
 			}
@@ -242,7 +243,7 @@ body {
 
 	.projects {
 		position: relative;
-		width: 71em;
+		width: 59em;
 		margin: 2em auto;
 	}
 

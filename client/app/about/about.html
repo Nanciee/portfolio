@@ -34,7 +34,7 @@
 			<div class="skill-name"><div ng-repeat="skill in AboutVm.skills_one">{{skill.name}}</div></div>
 			<div class="skill-percentage">
 				<div ng-repeat="skill in AboutVm.skills_one" class="total-percentage">
-					<div ng-style="{'width': {{skill.percentage}} + '%', 'background-color': '{{skill.color}}'}"></div>
+					<div id="{{skill.id}}"></div>
 				</div>
 			</div>
 		</div>
@@ -43,7 +43,7 @@
 			<div class="skill-name"><div ng-repeat="skill in AboutVm.skills_two">{{skill.name}}</div></div>
 			<div class="skill-percentage">
 				<div ng-repeat="skill in AboutVm.skills_two" class="total-percentage">
-					<div ng-style="{'width': {{skill.percentage}} + '%', 'background-color': '{{skill.color}}'}"></div>
+					<div id="{{skill.id}}"></div>
 				</div>
 			</div>
 		</div>
