@@ -115,7 +115,7 @@ angular.module('personal.about', [])
 		  var progress = new ProgressBar.Line("#" + AboutVm.skills_two[i].id, {
 			  strokeWidth: 4,
 			  easing: 'easeInOut',
-			  duration: 2000,
+			  duration: 2500,
 			  color: AboutVm.skills_two[i].color,
 			  trailColor: '#8e8e8e',
 			  trailWidth: 1,
@@ -129,7 +129,7 @@ angular.module('personal.about', [])
 		  var progress = new ProgressBar.Line("#" + AboutVm.skills_one[i].id, {
 			  strokeWidth: 4,
 			  easing: 'easeInOut',
-			  duration: 2000,
+			  duration: 2500,
 			  color: AboutVm.skills_one[i].color,
 			  trailColor: '#8e8e8e',
 			  trailWidth: 1,
