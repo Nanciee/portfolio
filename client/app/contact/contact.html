@@ -1,9 +1,10 @@
 <div class="first-page">
 	<div class="contact">
 		<img src="./asset/email.png" />
-		<form>
-			<input type="text" placeholder="someone@somewhere.com">
-			<textarea placeholder="Hey there, &#10;&#10;Don't be shy, get in touch with me! :D&#10;&#10;P.S. Hit the send button at the top right corner to send your message!"></textarea>
+		<form ng-submit="ContactVm.email()">
+			<input type="text" placeholder="someone@somewhere.com" ng-model="ContactVm.sender" required>
+			<textarea placeholder="Hey there, &#10;&#10;Don't be shy, get in touch with me! :D&#10;&#10;P.S. Hit the send button at the top right corner to send your message!" ng-model="ContactVm.message" required></textarea>
+			<button type="submit"></button>
 		</form>
 	</div>
 </div>

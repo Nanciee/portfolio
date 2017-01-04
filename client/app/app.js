@@ -1,6 +1,7 @@
 angular.module('personal', [
   'personal.about',
   'personal.projects',
+  'personal.contact',
   'ui.router'
 ])
 .controller('personalController', function() {
@@ -27,7 +28,9 @@ angular.module('personal', [
   var contactState = {
     name: 'contact',
     url: '/contact',
-    templateUrl: 'app/contact/contact.html'
+    templateUrl: 'app/contact/contact.html',
+    controller: 'ContactController',
+    controllerAs: 'ContactVm'
   };
 
   $stateProvider.state(aboutState);

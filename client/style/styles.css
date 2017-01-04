@@ -267,6 +267,17 @@ body {
         border: none;
         outline: none;
         color: #333333; }
+      body .contact form button {
+        position: absolute;
+        width: 6em;
+        height: 2.5em;
+        right: 3.2em;
+        top: 1em;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        cursor: hand; }
   body .footer {
     position: relative;
     background-color: rgba(83, 90, 108, 0.95);
