@@ -278,6 +278,19 @@ body {
         outline: none;
         cursor: pointer;
         cursor: hand; }
+    body .contact .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: inherit;
+      background-color: rgba(83, 90, 108, 0.9);
+      text-align: center; }
+      body .contact .overlay h1 {
+        margin-top: 3em;
+        margin-bottom: -0.5em; }
+      body .contact .overlay p {
+        font-size: 2em; }
   body .footer {
     position: relative;
     background-color: rgba(83, 90, 108, 0.95);

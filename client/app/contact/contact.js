@@ -3,6 +3,7 @@ angular.module('personal.contact', [])
 	var ContactVm = this;
 	ContactVm.sender = "";
 	ContactVm.message = "";
+  ContactVm.overlay = false;
 	ContactVm.email = function() {
 		$http({
       method: 'POST',
@@ -13,7 +14,7 @@ angular.module('personal.contact', [])
       }
     })
     .then(function(resp){
-      console.log(resp)
+      ContactVm.overlay = true;
     });
 	}
 });

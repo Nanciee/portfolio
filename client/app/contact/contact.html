@@ -6,5 +6,9 @@
 			<textarea placeholder="Hey there, &#10;&#10;Don't be shy, get in touch with me! :D&#10;&#10;P.S. Hit the send button at the top right corner to send your message!" ng-model="ContactVm.message" required></textarea>
 			<button type="submit"></button>
 		</form>
+		<div class="overlay" ng-if="ContactVm.overlay">
+			<h1>Thanks for reaching out!</h1>
+			<p>You will be hearing back from me in no time. :)<p>
+		</div>
 	</div>
 </div>
