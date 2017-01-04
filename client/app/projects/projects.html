@@ -17,7 +17,7 @@
 			<div>
 				<div class="project-title">{{project.name}}</div>
 				<div class="project-tech">
-					<div ng-repeat="tech in project.tech"><i class="{{tech}}"></i></div>
+					<div ng-repeat="tech in project.tech"><i class="{{ProjectsVm.tech[tech]}}" tooltips tooltip-template="{{tech}}" tooltip-side="bottom"></i></div>
 				</div>
 				<div class="project-describe">{{project.description}}</div>
 				<div class="project-button"><a href="{{project.site}}" target="_blank"><div ng-if="project.site !== undefined">Site</div></a><a href="{{project.github}}" target="_blank"><div>Github</div></a></div>

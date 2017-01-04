@@ -8,6 +8,7 @@
     "angular-ui-router": "^0.3.1",
     "progressbar.js": "^1.0.1",
     "typed.js": "^1.1.4",
-    "jquery-2.1.0.min": "http://code.jquery.com/jquery-2.1.0.min.js"
+    "jquery-2.1.0.min": "http://code.jquery.com/jquery-2.1.0.min.js",
+    "angular-tooltips": "^1.1.8"
   }
 }

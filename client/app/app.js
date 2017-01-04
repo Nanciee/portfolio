@@ -2,7 +2,8 @@ angular.module('personal', [
   'personal.about',
   'personal.projects',
   'personal.contact',
-  'ui.router'
+  'ui.router',
+  '720kb.tooltips'
 ])
 .controller('personalController', function() {
 })
