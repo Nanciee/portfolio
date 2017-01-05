@@ -26,7 +26,7 @@ function email(req, res) {
   var mailOptions = {
     from: 'nancyduyi@gmail.com', 
     to: 'nancyduyi@gmail.com', 
-    subject: 'Hey Nancy! <' + req.body.sender '>',
+    subject: 'Hey Nancy! <' + req.body.sender + '>',
     text: req.body.message
 	};
 
