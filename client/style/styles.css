@@ -266,7 +266,8 @@ body {
         resize: none;
         border: none;
         outline: none;
-        color: #333333; }
+        color: #333333;
+        font-family: inherit; }
       body .contact form button {
         position: absolute;
         width: 6em;
