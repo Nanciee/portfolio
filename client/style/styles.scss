@@ -151,6 +151,14 @@ body {
 		margin-top: 5em;
 		width: 30vw;
 		min-width: $minWidth;
+
+		a {
+			color: #333333
+		}
+		a:hover {
+			color: $theme
+		}
+
 		.display-pic{
 			height: 8em;
 			width: 8em;

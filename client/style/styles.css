@@ -118,6 +118,10 @@ body {
     margin-top: 5em;
     width: 30vw;
     min-width: 30em; }
+    body .about a {
+      color: #333333; }
+    body .about a:hover {
+      color: #535a6c; }
     body .about .display-pic {
       height: 8em;
       width: 8em;
